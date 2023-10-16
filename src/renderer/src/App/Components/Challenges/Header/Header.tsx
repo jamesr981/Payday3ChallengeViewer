@@ -145,7 +145,7 @@ export default function ChallengesHeader({
         >
           <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             Refresh data
-            {showCountdownRefresh && userInfos && <CountDown startSeconds={(userInfos && ["5feeacfaac5d4758a21b50ffdff13a08"].includes(userInfos.userId)) ? 3 : 300} onComplete={timerIsUp} />}
+            {showCountdownRefresh && userInfos && <CountDown startSeconds={(userInfos && ["3110d00d70684f05b7331b5638a26eac"].includes(userInfos.userId)) ? 3 : 300} onComplete={timerIsUp} />}
           </Box>
         </Button>
         <FormControlLabel
